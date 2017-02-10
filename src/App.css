@@ -1,0 +1,11 @@
+* {
+	box-sizing: border-box;
+}
+
+.App {
+  font-family: 'Sansita', sans-serif;
+}
+
+body {
+  background-color: #212121;
+}

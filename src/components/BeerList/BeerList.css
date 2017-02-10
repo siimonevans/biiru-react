@@ -1,0 +1,21 @@
+.beer-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.beer-list__item {
+  list-style: none;
+  padding: 10px;
+  color: #fff;
+  width: 20%;
+  min-height: 130px;
+}
+
+.beer-list__item .inner {
+  background: #232323;
+  padding: 30px 10px;
+  text-align: center;
+}

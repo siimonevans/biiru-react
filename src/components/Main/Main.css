@@ -1,0 +1,7 @@
+.main {
+	float: left;
+	width: 80%;
+	min-height: 100vh;
+	background-color: #191919;
+	padding: 40px;
+}
