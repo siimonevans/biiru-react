@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
-import { Router, Route, Link, IndexRoute, hashHistory, browserHistory } from 'react-router'
-import Header from './components/Header/Header';
+import { Router, Route, IndexRoute, hashHistory } from 'react-router'
 import Sidebar from './components/Sidebar/Sidebar';
-import Main from './components/Main/Main';
 import Home from './components/Home/Home';
 import BeerItem from './components/BeerItem/BeerItem';
 import NotFound from './components/NotFound/NotFound';
 import './css/App.css';
+
+const Container = (props) => <div>
+  <Sidebar></Sidebar>
+  {props.children}
+</div>
 
 class App extends Component {
   render() {
@@ -23,10 +26,5 @@ class App extends Component {
     );
   }
 }
-
-const Container = (props) => <div>
-  <Sidebar></Sidebar>
-  {props.children}
-</div>
 
 export default App;
