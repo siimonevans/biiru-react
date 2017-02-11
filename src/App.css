@@ -3,9 +3,10 @@
 }
 
 .App {
-  font-family: 'Sansita', sans-serif;
+	font-family: 'Asap', sans-serif;
 }
 
 body {
   background-color: #212121;
+  margin: 0;
 }

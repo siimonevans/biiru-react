@@ -18,7 +18,7 @@ class BeerList extends Component {
         const beerList = document.querySelector( 'main ul' );
 
         beers.map(function(item){
-          beerList.innerHTML += '<li class="beer-list__item"><div class="inner">' + item.name + ' - ' + item.abv + '%' + '</div></li>'
+          beerList.innerHTML += '<li class="beer-list__item"><div class="inner"><div class="beer-name">' + item.name + '</div><div class="beer-abv">' + item.abv + '%' + '</div></div></li>'
           return null;
         })
       })
