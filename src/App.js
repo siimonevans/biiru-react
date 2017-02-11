@@ -6,7 +6,7 @@ import Main from './components/Main/Main';
 import Home from './components/Home/Home';
 import BeerItem from './components/BeerItem/BeerItem';
 import NotFound from './components/NotFound/NotFound';
-import './App.css';
+import './css/App.css';
 
 class App extends Component {
   render() {

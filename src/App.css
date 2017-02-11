@@ -1,9 +1,9 @@
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .App {
-	font-family: 'Asap', sans-serif;
+  font-family: 'Asap', sans-serif;
 }
 
 body {
@@ -11,6 +11,6 @@ body {
 }
 
 h1 {
-	margin: 0;
-	padding: 20px;
+  margin: 0;
+  padding: 20px;
 }
