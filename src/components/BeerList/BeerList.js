@@ -8,6 +8,7 @@ class BeerList extends Component {
       .then( response => response.json() )
       .then( arr => {
         const beers = arr.map(function(drink) {
+          console.log(drink);
           const bev = {
             name : drink.name,
             abv : drink.abv,
