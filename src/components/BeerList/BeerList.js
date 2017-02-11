@@ -22,7 +22,7 @@ class BeerList extends Component {
           beerList.innerHTML += '<li class="beer-list__item"><div class="inner"><div class="beer-name">' + item.name + '</div><div class="beer-abv">' + item.abv + '%' + '</div></div></li>'
           return null;
         })
-      })
+    })
   }
 
   render() {

@@ -1,11 +1,18 @@
 .sidebar {
-  position: fixed;
-  left: 0;
-  top: 0;
+  float: left;
   width: 6%;
   min-height: 100vh;
-  z-index: 1;
   background-color: #212121;
+}
+
+.sidebar a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
 }
 
 .sidebar__logo {
