@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import './BeerList.css';
 
 class BeerList extends Component {
-  componentDidMount() {
+
+  getBeers() {
     fetch( 'https://api.punkapi.com/v2/beers' )
       .then( response => response.json() )
       .then( arr => {
@@ -10,10 +11,13 @@ class BeerList extends Component {
         // Map beers
         const beers = arr.map(function(drink) {
 
+          console.log(drink);
+
           // Grab the props we want
           const beer = {
             name : drink.name,
             abv : drink.abv,
+            image : drink.image_url
           }
 
           return beer
@@ -29,6 +33,10 @@ class BeerList extends Component {
           return null;
       })
     })
+  }
+
+  componentDidMount() {
+    this.getBeers();
   }
 
   render() {
