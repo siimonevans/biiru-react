@@ -11,7 +11,7 @@ class BeerList extends Component {
         // Map beers
         const beers = arr.map(function(drink) {
 
-          console.log(drink);
+          // console.log(drink);
 
           // Grab the props we want
           const beer = {

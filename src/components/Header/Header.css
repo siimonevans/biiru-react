@@ -1,24 +1,23 @@
 .header {
   width: 100%;
   padding: 50px 0;
-  background-color: #fff;
-}
-
-.header a {
-  display: none;
+  background-color: #232323;
 }
 
 .header__logo {
-  display: none;
-  background-size: cover;
-  background-image: url('../../../public/images/logo.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 34px;
-  background-color: #191818;
-  transition: background-color 300ms ease;
+  color: #fff;
+  text-decoration: none;
+  font-size: 30px;
+  transition: opacity 300ms ease;
 }
 
 .header__logo:hover {
-  background-color: #000;
+  opacity: 0.7;
+}
+
+.header__link {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 50px;
+  cursor: pointer;
 }

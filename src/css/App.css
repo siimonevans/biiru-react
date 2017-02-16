@@ -12,5 +12,10 @@ body {
 
 h1 {
 	margin: 0;
-	padding: 20px;
+	padding: 20px 0;
+}
+
+.wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
 }

@@ -1,6 +1,4 @@
 .beer-item {
-  float: left;
-  width: 94%;
+  width: 100%;
   min-height: 100vh;
-  background-color: #E8AA25;
 }
