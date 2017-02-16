@@ -2,15 +2,6 @@ import React, { Component } from 'react';
 import './Search.css';
 
 class Search extends Component {
-
-  testt() {
-    console.log('here');
-  }
-
-  componentDidMount() {
-    this.testt();
-  }
-
   render() {
     return (
       <div className="global-search">
