@@ -1,0 +1,29 @@
+.global-search {
+  position: absolute;
+  z-index: 1;
+  top: 90px;
+  width: 100%;
+  padding: 40px 0;
+  opacity: 0;
+  transition: 
+    opacity 200ms ease,
+    top 400ms ease;
+}
+
+.global-search--show {
+  top: 134px;
+  opacity: 1;
+}
+
+.global-search__input {
+  min-width: 600px;
+  border: 0;
+  padding: 20px;
+  font-size: 20px;
+  background-color: #232323;
+  color: #fff;
+}
+
+.global-search__input:focus {
+  outline: 0;
+}
