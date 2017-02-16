@@ -6,11 +6,14 @@ class Header extends Component {
 
   toggleSearch() {
     const mainPanel     = document.querySelector('.main'),
+          search        = document.querySelector('.global-search'),
           toggle        = document.querySelector('.js-search-toggle'),
-          mainSearch    = 'main--search';
+          mainSearch    = 'main--search',
+          globalSearch  = 'global-search--show';
 
     toggle.addEventListener('click', function() {
       mainPanel.classList.toggle(mainSearch);
+      search.classList.toggle(globalSearch);
     });
   }
 
@@ -24,7 +27,7 @@ class Header extends Component {
         <div className="wrapper">
           <Link to='/' className="header__logo">Biiru</Link>
           <Link to='/BeerItem' className="header__link">Beer</Link>
-          <Link to ='' className="header__link js-search-toggle">Search</Link>
+          <Link to='' className="header__link js-search-toggle">Search</Link>
         </div>
       </div>
     )

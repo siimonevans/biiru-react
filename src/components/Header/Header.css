@@ -1,7 +1,10 @@
 .header {
+  position: relative;
+  z-index: 2;
   width: 100%;
   padding: 50px 0;
   background-color: #232323;
+  border-bottom: 1px solid #323232;
 }
 
 .header__logo {
